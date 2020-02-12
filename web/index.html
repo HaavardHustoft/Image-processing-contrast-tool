@@ -8,11 +8,16 @@
 </head>
 <body>
     <h1>Contrast Changer</h1>
-    <p>
+    <p class='main_p'>
         <label for="myImage" style="cursor: pointer;">Upload Image</label>
         <input type="file" name="filename" id="myImage" accept="image/png" onchange="loadFile(event)">
     </p>
     <img id="output" width="200">
+    <p class='main_p'>
+        <img src="images/img.png" id="transformed" width="400">
+        <img src="images/fig.png" id="histogram" width="400">
+    </p>
+    
 
     <script src="script.js"></script>
 </body>
